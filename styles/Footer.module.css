@@ -1,0 +1,33 @@
+.face{
+    color: black;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    padding-top: 4vh;
+    
+}
+.Icons{
+    padding-left: 3vh;
+}
+.footerbg{
+    background-color: black;
+}
+.heading{
+    color: white;
+    /* padding-left: 30vh; */
+    padding-top: 4vh;
+    margin-left: 15px;
+}
+.logo{
+    /* padding-left: 10vh; */
+    padding-top: 4vh;
+}
+.logoImage{
+    background-color: white;
+}

@@ -1,18 +1,123 @@
-.container {
-  padding: 0 2rem;
+.heading{
+  
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.image{
+ text-align: center;
+}
+.inputs{
+  background-image: url('../assets/Meteor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  text-align: center;
+ margin-left: 10%;
+ height: 100%;
+ 
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.inputsField1{
+width: 40%;
+height: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+border-radius: 5px;
+border: 1px solid white;
+} 
+.inputsField{
+  width: 40%;
+  height: 30px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  } 
+.copy{
+  margin-left: 2vh;
+  background-color: #2cb3d1;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #2cb3d1;
+  border-radius: 5px;
+  width: 10vh;
+  height: 30px;
+}
+.copy:focus{
+  background-color: red;
+}
+.shortenButton{
+  margin-left: 2vh;
+  background-color: #2cb3d1;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #2cb3d1;
+  border-radius: 25px;
+  height: 30px;
+  width: 15vh;
+}
+.resultDiv{
+  background-color: #bcbcbf7e;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.res{
+  margin-bottom: -50px;
+}
+.advance{
+  padding-top: 40px;
+}
+
+.card{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+.card1{
+  background-color: white;
+  height: 100%;
+  width: 50vh;
+  margin-left: 10px;;
 }
 
-.footer {
+.icondiv{
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  background-color: black;
+  padding-top: 10px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+.Maincard{
+  padding-top: 15vh;
+}
+
+.boost{
+  background-image: url('../assets/Meteor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 30vh;
+}
+.text{
+  color:white;
+  padding-top: 40px;
+}
+
+.getStated{
+  background-color: #2cb3d1;
+  color: white;
+  font-weight: bold;
+  width: 20vh;
+  border-radius: 25px;
+  height: 30px;
+  border: 1px solid #2cb3d1;
+}
+
+
+/* .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -113,4 +218,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
